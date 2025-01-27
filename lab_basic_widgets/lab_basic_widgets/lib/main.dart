@@ -60,7 +60,7 @@ class _BasicWidgetsDemoState extends State<BasicWidgetsDemo> {
       if (_controller.text.isEmpty) {
         errorText = 'Please enter your name';
       } else {
-        name = _controller.text;
+        name = 'Welcome, ${_controller.text}';
         errorText = null;
       }
     });
